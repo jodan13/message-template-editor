@@ -1,0 +1,32 @@
+.navbar {
+  /* position: fixed; */
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #f8f9fa;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn {
+  margin-right: .25rem;
+}
+
+.btnLg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+  background-color: #198754;
+  border-color: #198754;
+}
